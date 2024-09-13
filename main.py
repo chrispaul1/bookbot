@@ -18,10 +18,10 @@ def count_char(book_text):
 	return char_count_dict
 
 def convert_dict(dict):
-  dict_list = []
-  for key, val in dict.items():
-	  dict_list.append({"char":key,"num":val})
-  return dict_list
+    dict_list = []
+    for key, val in dict.items():
+        dict_list.append({"char":key,"num":val})
+	return dict_list
 		
 def sort_on(dict):
 	return dict["num"]
